@@ -22,6 +22,12 @@
   border: 0;
 }
 
+.modal-close-button, .advantage-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
@@ -255,9 +261,6 @@ img {
 }
 
 .advantage-description {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -272,9 +275,9 @@ img {
 
 .advantage-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
@@ -300,9 +303,9 @@ img {
 
 .work-examples {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -322,9 +325,9 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   padding-top: 27px;
@@ -367,9 +370,9 @@ img {
 
 .team {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -428,9 +431,9 @@ img {
 
 .regular-clients {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -515,9 +518,9 @@ img {
 }
 
 .text-footer {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.18;
+  font-weight: 700;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-bottom: 20px;
@@ -569,9 +572,9 @@ img {
 }
 
 .text-subscribe {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
@@ -769,9 +772,6 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0;
   width: 30px;
   height: 30px;

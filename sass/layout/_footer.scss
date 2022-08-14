@@ -40,9 +40,7 @@
 }
 
 .text-footer {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.18;
+  @include font();
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-bottom: 20px;
@@ -96,9 +94,7 @@
 }
 
 .text-subscribe {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font();
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
