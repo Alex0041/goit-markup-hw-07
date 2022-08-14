@@ -3,9 +3,7 @@
 }
 
 .advantage-description {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
