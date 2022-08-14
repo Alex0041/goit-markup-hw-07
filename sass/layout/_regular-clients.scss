@@ -25,12 +25,12 @@
   border-radius: 4px;
   background-color: var(--primary-white-color);
   transition: var(--time-function);
-}
 
-.regular-client-list:hover,
-.regular-client-list:focus {
-  border: 1px solid var(--accent-color);
-  transition: var(--time-function);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    transition: var(--time-function);
+  }
 }
 
 .link-client {
@@ -39,13 +39,13 @@
   height: inherit;
   justify-content: center;
   align-items: center;
-}
 
-.link-client:hover svg,
-.link-client:focus svg,
-.link-client:hover,
-.link-client:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-  transition: var(--time-function);
+  &:hover svg,
+  &:focus svg,
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    transition: var(--time-function);
+  }
 }

@@ -30,13 +30,13 @@
   display: block;
   margin: 0 auto;
   transition: var(--time-function);
-}
 
-.button.primary:focus,
-.button.primary:hover {
-  background-color: var(--button-primary-focus);
-  color: var(--primary-white-color);
-  transition: var(--time-function);
+  &:focus,
+  &:hover {
+    background-color: var(--button-primary-focus);
+    color: var(--primary-white-color);
+    transition: var(--time-function);
+  }
 }
 
 .hero-title {

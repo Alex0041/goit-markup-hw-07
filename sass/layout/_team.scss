@@ -57,15 +57,15 @@
   border-radius: 50% 50%;
   color: var(--primary-white-color);
   transition: var(--time-function);
-}
 
-.social-networks-ltem:hover svg,
-.social-networks-ltem:focus svg,
-.social-networks-ltem:hover,
-.social-networks-ltem:focus {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
-  transition: var(--time-function);
+  &:hover svg,
+  &:focus svg,
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--primary-white-color);
+    transition: var(--time-function);
+  }
 }
 
 .link-social-network {

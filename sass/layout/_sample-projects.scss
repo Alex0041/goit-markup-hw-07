@@ -14,22 +14,18 @@
 
 .projects-cart {
   flex-basis: calc((100% - 60px) / 3);
-}
 
-.projects-cart:hover,
-.projects-cart:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transition: var(--time-function);
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: var(--time-function);
+  }
 }
 
 .project-popup {
   position: relative;
   display: block;
   overflow: hidden;
-}
-
-.link-sample-projects {
-  display: block;
 }
 
 .sample-work-popup {
@@ -50,15 +46,19 @@
 
   transform: translate(0, 100%);
   transition: transform var(--time-function);
+
+  .link-sample-projects:hover &,
+  .link-sample-projects:focus & {
+    transform: translate(0, 0);
+  }
 }
 
 .all-sites {
   color: var(--primary-text-color);
 }
 
-.link-sample-projects:hover .sample-work-popup,
-.link-sample-projects:focus .sample-work-popup {
-  transform: translate(0, 0);
+.link-sample-projects {
+  display: block;
 }
 
 .projects-title-sites {

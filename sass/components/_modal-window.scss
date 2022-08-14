@@ -27,15 +27,15 @@
 
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  &:hover svg,
+  &:focus svg {
+    fill: var(--accent-color);
+    transition: transform var(--time-function);
+  }
 }
 
 .modal-close-button-icon {
   fill: #000000;
-  transition: transform var(--time-function);
-}
-
-.modal-close-button:hover svg,
-.modal-close-button:focus svg {
-  fill: var(--accent-color);
   transition: transform var(--time-function);
 }
