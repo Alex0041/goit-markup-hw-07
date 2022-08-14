@@ -1,4 +1,4 @@
-.work-examples {
+.work-examples__title {
   color: var(--title-text-color);
   @include font-h2();
   text-align: center;
@@ -6,12 +6,12 @@
   margin-bottom: 50px;
 }
 
-.list-work-examples {
+.work-examples__list {
   display: flex;
   gap: 30px;
 }
 
-.card-examples {
+.example {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
@@ -29,17 +29,17 @@
   color: var(--primary-white-color);
 }
 
-.overlay-desktop {
+.example__desktop {
   padding-left: 107px;
   padding-right: 107px;
 }
 
-.overlay-mobil {
+.example__mobil {
   padding-left: 112px;
   padding-right: 112px;
 }
 
-.overlay-design {
+.example__design {
   padding-left: 94px;
   padding-right: 94px;
 }

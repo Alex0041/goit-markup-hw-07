@@ -22,7 +22,7 @@
   border: 0;
 }
 
-.modal-close-button, .advantage-description {
+.modal-close-button, .advantage__description {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,10 +93,13 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+.page-header__logo {
   margin-right: 93px;
 }
 
-.accent-logo {
+.logo__accent {
   color: var(--title-text-color);
 }
 
@@ -127,7 +130,7 @@ img {
   color: var(--accent-color);
 }
 
-.menu-link {
+.site-nav__link {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 0;
@@ -135,7 +138,7 @@ img {
   display: block;
 }
 
-.menu-link.link.current::after {
+.site-nav__link.link.site-nav__link-current::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -147,7 +150,7 @@ img {
   transition: var(--time-function);
 }
 
-.menu-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
   position: relative;
 }
@@ -155,6 +158,9 @@ img {
 .contact-details {
   display: flex;
   align-items: center;
+}
+
+.page-header__contact-details {
   margin-left: auto;
 }
 
@@ -167,23 +173,23 @@ img {
   transition: var(--time-function);
 }
 
-.mail-link {
+.mail-link-header {
   margin-right: 50px;
 }
 
-.icon-mail {
+.mail-link__icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
   transition: var(--time-function);
 }
 
-.icon-phone {
+.phone-link__icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
   transition: var(--time-function);
 }
 
-.mail-header {
+.mail-link__header {
   margin-left: auto;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -191,20 +197,20 @@ img {
   padding-right: 0;
   display: block;
 }
-.mail-header:hover svg, .mail-header:hover svg, .mail-header:hover, .mail-header:focus {
+.mail-link__header:hover svg, .mail-link__header:hover svg, .mail-link__header:hover, .mail-link__header:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
   transition: var(--time-function);
 }
 
-.phone-header {
+.phone-link__header {
   padding-top: 24px;
   padding-bottom: 25px;
   padding-left: 0;
   padding-right: 0;
   display: block;
 }
-.phone-header:hover svg, .phone-header:focus svg, .phone-header:hover, .phone-header:focus {
+.phone-link__header:hover svg, .phone-link__header:focus svg, .phone-link__header:hover, .phone-link__header:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
   transition: var(--time-function);
@@ -223,7 +229,7 @@ img {
   background-repeat: no-repeat;
 }
 
-.button.primary {
+.button-primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -235,16 +241,19 @@ img {
   border-radius: 4px;
   padding: 12px 32px;
   display: block;
-  margin: 0 auto;
   transition: var(--time-function);
 }
-.button.primary:focus, .button.primary:hover {
+.button-primary:focus, .button-primary:hover {
   background-color: var(--button-primary-focus);
   color: var(--primary-white-color);
   transition: var(--time-function);
 }
 
-.hero-title {
+.button-primary__hero {
+  margin: 0 auto;
+}
+
+.hero__title {
   color: var(--primary-white-color);
   font-weight: 900;
   max-width: 696px;
@@ -260,7 +269,7 @@ img {
   padding-top: 94px;
 }
 
-.advantage-description {
+.advantage__description {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -268,12 +277,12 @@ img {
   margin-bottom: 30px;
 }
 
-.list-advantage {
+.advantage__list {
   display: flex;
   gap: 30px;
 }
 
-.advantage-title {
+.advantage__title {
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -282,7 +291,7 @@ img {
   margin-bottom: 10px;
 }
 
-.plain-text {
+.advantage__text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -301,7 +310,7 @@ img {
   color: var(--primary-text-color);
 }
 
-.work-examples {
+.work-examples__title {
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -311,12 +320,12 @@ img {
   margin-bottom: 50px;
 }
 
-.list-work-examples {
+.work-examples__list {
   display: flex;
   gap: 30px;
 }
 
-.card-examples {
+.example {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
@@ -336,17 +345,17 @@ img {
   color: var(--primary-white-color);
 }
 
-.overlay-desktop {
+.example__desktop {
   padding-left: 107px;
   padding-right: 107px;
 }
 
-.overlay-mobil {
+.example__mobil {
   padding-left: 112px;
   padding-right: 112px;
 }
 
-.overlay-design {
+.example__design {
   padding-left: 94px;
   padding-right: 94px;
 }
