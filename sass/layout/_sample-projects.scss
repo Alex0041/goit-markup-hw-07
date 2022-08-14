@@ -1,0 +1,69 @@
+.sample-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.title-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.projects-cart {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.projects-cart:hover,
+.projects-cart:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: var(--time-function);
+}
+
+.project-popup {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.link-sample-projects {
+  display: block;
+}
+
+.sample-work-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  padding: 63px 24px;
+
+  transform: translate(0, 100%);
+  transition: transform var(--time-function);
+}
+
+.all-sites {
+  color: var(--primary-text-color);
+}
+
+.link-sample-projects:hover .sample-work-popup,
+.link-sample-projects:focus .sample-work-popup {
+  transform: translate(0, 0);
+}
+
+.projects-title-sites {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+  border-top: none;
+  background-color: var(--primary-white-color);
+}

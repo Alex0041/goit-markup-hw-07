@@ -1,0 +1,49 @@
+.work-examples {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.list-work-examples {
+  display: flex;
+  gap: 30px;
+}
+
+.card-examples {
+  flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}
+
+.overlay-desktop {
+  padding-left: 107px;
+  padding-right: 107px;
+}
+
+.overlay-mobil {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+.overlay-design {
+  padding-left: 94px;
+  padding-right: 94px;
+}

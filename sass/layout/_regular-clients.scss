@@ -1,0 +1,51 @@
+.regular-clients {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.regular-customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.icon-customer {
+  fill: var(--icon-color);
+  transition: var(--time-function);
+}
+
+.regular-client-list {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  background-color: var(--primary-white-color);
+  transition: var(--time-function);
+}
+
+.regular-client-list:hover,
+.regular-client-list:focus {
+  border: 1px solid var(--accent-color);
+  transition: var(--time-function);
+}
+
+.link-client {
+  display: flex;
+  width: inherit;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-client:hover svg,
+.link-client:focus svg,
+.link-client:hover,
+.link-client:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+  transition: var(--time-function);
+}
