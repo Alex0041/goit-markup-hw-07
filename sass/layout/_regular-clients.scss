@@ -1,22 +1,17 @@
-.regular-clients {
+.clients__title {
   color: var(--title-text-color);
   @include font-h2();
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.regular-customers-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.icon-customer {
-  fill: var(--icon-color);
-  transition: var(--time-function);
-}
-
-.regular-client-list {
+.clients__item {
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-color);
@@ -31,7 +26,7 @@
   }
 }
 
-.link-client {
+.clients__link {
   display: flex;
   width: inherit;
   height: inherit;
@@ -46,4 +41,9 @@
     fill: var(--accent-color);
     transition: var(--time-function);
   }
+}
+
+.clients__icon {
+  fill: var(--icon-color);
+  transition: var(--time-function);
 }

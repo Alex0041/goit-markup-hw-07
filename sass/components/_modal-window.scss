@@ -13,7 +13,7 @@
   padding: 40px;
 }
 
-.modal-close-button {
+.modal-window__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -33,7 +33,7 @@
   }
 }
 
-.modal-close-button-icon {
+.modal-window__icon {
   fill: #000000;
   transition: transform var(--time-function);
 }

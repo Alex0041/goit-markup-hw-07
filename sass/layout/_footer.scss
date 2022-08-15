@@ -3,17 +3,25 @@
   background-color: var(--hero-footer-color);
 }
 
+.footer-container {
+  display: flex;
+  gap: 70px;
+}
+
 .logo-footer {
   display: block;
-  margin-bottom: 20px;
   width: 145px;
 }
 
 .footer-logo {
+  margin-bottom: 20px;
+}
+
+.logo-footer__accent {
   color: var(--primary-white-color);
 }
 
-.address-footer {
+.footer-list__address {
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
@@ -22,7 +30,7 @@
   letter-spacing: 0.03em;
 }
 
-.contact-footer {
+.footer-list__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -39,19 +47,19 @@
   margin-top: 10px;
 }
 
-.text-footer {
+.footer-social-networks__title {
   @include font();
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 
-.footer-social-networks {
+.footer-social-networks__list {
   display: flex;
   gap: 10px;
 }
 
-.footer-social-networks-ltem {
+.footer-social-networks__item {
   display: flex;
   align-items: center;
   width: 44px;
@@ -67,16 +75,16 @@
   }
 }
 
-.footer-social-ltem {
+.footer-social {
   margin-top: 12px;
 }
 
-.icon-social-footer {
+.footer-social-networks__icon {
   fill: var(--primary-white-color);
   transition: var(--time-function);
 }
 
-.link-social-footer {
+.footer-social-networks__link {
   display: flex;
   width: inherit;
   height: inherit;
@@ -84,22 +92,17 @@
   justify-content: center;
 }
 
-.footer-container {
-  display: flex;
-  gap: 70px;
-}
-
 .footer-subscribe {
   margin-top: 12px;
 }
 
-.text-subscribe {
+.subscription__title {
   @include font();
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
-.form-subscribe-footer {
+.subscription__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -120,20 +123,20 @@
   }
 }
 
-.footer-subscribe-form {
+.subscription__footer {
   position: relative;
   display: flex;
   margin-top: 20px;
 }
 
-.footer-subscribe-telegram {
+.subscription__telegram {
   position: absolute;
   top: 50%;
   right: 24px;
   transform: translate(0, -50%);
 }
 
-.modal-form-submit-subscribe {
+.subscription__submit {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
